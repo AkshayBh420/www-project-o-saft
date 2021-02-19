@@ -103,7 +103,7 @@ The main idea is to have a tool which works on common platforms and can simply b
 * Download and unpack master.zip
 * Start INSTALL.sh (if you want)
 * Enjoy new functionality:
-  * '+cipherraw' and 'checkAllCiphers.pl' changed bahavior to check sni (now the default is to use solely sni >=tls1
+  * '+cipherraw' and 'checkAllCiphers.pl' changed behavior to check sni (now the default is to use solely sni >=tls1
      * new option --togglesni tests without and with sni in one call
   * checkAllCiphers.pl/+cipherall: shows the length of dh_parameter for ciphers with DHE and DH_anon, shows the elliptic curve that the server prefers for ECDHE (independant from openssl)
   * checkAllCiphers.pl/+cipherall: support of fagmented messages reassembling SSL/TLS-records
